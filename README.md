@@ -1,23 +1,37 @@
-# Cher Ami — Luxury Restoration Journal (Static Site)
+# Cher Ami
 
-A single-page, magazine-style restoration site with section-by-section navigation, parallax accents, and a June 2026 countdown.
+An immersive luxury-inspired web experience documenting the restoration of a 1992 Crownline 182BR.
 
-## Run locally
-Just open `index.html` in your browser.
+Built with a cinematic editorial design approach inspired by modern architecture portfolios, luxury branding, and interactive storytelling.
 
-For best results (especially video autoplay and hash routing), run a tiny local server:
+## Features
 
-- **macOS / Linux**
-  - `python3 -m http.server 8080`
-- **Windows**
-  - `py -m http.server 8080`
+- Responsive cinematic layout
+- GSAP-powered interactions
+- Scroll-based transitions
+- Custom navigation system
+- Mobile-first responsive design
+- Video integration
+- Performance-conscious frontend architecture
 
-Then open: `http://localhost:8080`
+## Tech Stack
 
-## Customize
-- **Update the countdown target**: `js/app.js` → `const target = new Date(...)`
-- **Add timeline chapters**: duplicate a `.milestone` block in `index.html`
-- **Change the mailto address**: `js/app.js` → `const to = "you@example.com";`
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- GSAP
 
-## Assets
-All imagery/video used here is loaded from `/assets/` and can be swapped with your own photos.
+## Live Demo
+
+https://cherami.brandonlutts.com
+
+## Project Goals
+
+This project explored how luxury-inspired visual storytelling and motion design can elevate a personal restoration project into a premium digital experience.
+
+## Author
+
+Brandon Lütts
+
+Portfolio:
+https://brandonlutts.com
